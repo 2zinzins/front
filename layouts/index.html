@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Les deux Zinzins | Le tour d'Europe en Stop !</title>
     <meta name="description" content="Hey gros zinzin, nous sommes deux voyageurs qui se sont lancé un défi : Un mini tour d’europe en stop !
     Et bien sûr tout cela avec le maximum de feeling et de kiff.
@@ -15,16 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img src="img/logo.png" title="Logo des zinzins" alt="Logo des zinzins">
-            <h1>Les 2<span>Z</span>inzins</h1>
-        </div>
-
-        <p>
-            Départ -> 21/08/22
-        </p>
-    </nav>
+    {{ partial "nav" . }}
 
     <div class="banner-page">
         <div class="acc">
@@ -97,5 +88,8 @@
         </div>
     </div>
 
+    <footer>
+        <a href="/legal">Mentions légales</a>
+    </footer>
 </body>
 </html>
