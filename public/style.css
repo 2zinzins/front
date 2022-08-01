@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "Patrick Hand", cursive;
+  font-size: 22px;
+  background-color: whitesmoke;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+li {
+  font-family: "Patrick Hand", cursive;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 45px;
+  flex: 100%;
+  margin: 0px;
+}
+h1 span {
+  font-size: 95px;
+}
+
+h2 {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.button {
+  background-color: #FAC300;
+  padding: 8px 40px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: #FAC300 solid 2px;
+  color: black;
+  padding: 6px 38px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 10em;
+  position: relative;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+nav .logo img {
+  width: 50%;
+}
+nav .logo h1 {
+  padding-left: 30px;
+}
+.trait {
+  content: "";
+  width: 40%;
+  border: 2px solid #FAC300;
+  border-radius: 5px;
+  top: 53%;
+  right: 20%;
+}
+
+.banner-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0em 10em;
+}
+.banner-page .acc {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-page .container-asso {
+  display: flex;
+  align-items: center;
+  background: #FAC300;
+  border-radius: 30px;
+  width: 30%;
+}
+.banner-page .container-asso .button-acc {
+  background-color: transparent;
+  padding: 8px 40px;
+  border-radius: 50px;
+  border: solid 2px white !important;
+  border: none;
+  color: white;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+}
+.banner-page .container-asso .button-acc:hover {
+  background-color: transparent;
+  border: black solid 2px !important;
+  color: black;
+  padding: 8px 40px !important;
+}
+.banner-page .container-asso img {
+  padding-right: 20px;
+  padding: 1em;
+  width: 30%;
+}
+.banner-page .container-asso .text-asso {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-page .container-asso p {
+  background-color: transparent;
+  color: white;
+}
+.banner-page .arrow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 55px;
+  color: #FAC300;
+}
+
+.container-asso2 {
+  display: flex;
+  padding: 0em 10em;
+  background-color: whitesmoke;
+}
+.container-asso2 .img-container-asso2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.container-asso2 .img-container-asso2 img {
+  width: auto;
+  height: 50%;
+}
+.container-asso2 .info-asso-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container-asso2 .call-to-action-container {
+  display: flex;
+  justify-content: center;
+}
+
+.separation {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0em;
+}
+
+.map-container {
+  padding: 1em 10em;
+}
+.map-container .map {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: center;
+}
+.map-container .map iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.bucket-list {
+  padding: 1em 10em;
+}
+.bucket-list ul {
+  margin-top: 60px;
+}
+.bucket-list li {
+  padding: 1em;
+}
+
+.contact {
+  padding: 1em 10em;
+}
+.contact .action-contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.contact .action-contact a img {
+  width: auto;
+  height: 70%;
+}
+
+@media screen and (max-width: 1025px) {
+  nav {
+    flex-direction: column;
+    padding: 1em !important;
+  }
+  nav .logo {
+    flex-direction: column;
+  }
+  nav .logo h1 {
+    padding-left: 0px;
+  }
+  .trait {
+    display: none;
+  }
+  .banner-page {
+    padding: 1em;
+  }
+  .banner-page .acc {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-asso {
+    width: 95% !important;
+    margin-top: 0px !important;
+  }
+  .container-asso .text-asso p {
+    padding: 0em !important;
+  }
+  .container-asso2 {
+    padding: 1em;
+    flex-direction: column;
+  }
+  .container-asso2 .img-container-asso2 {
+    width: 100%;
+  }
+  .container-asso2 img {
+    height: auto !important;
+    width: 90% !important;
+  }
+  .container-asso2 .info-asso-container {
+    width: 100%;
+  }
+  .button {
+    padding: 8px 31px;
+    margin: 3px;
+  }
+  .map-container {
+    padding: 1em;
+  }
+  .map-container .map {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .separation {
+    margin: 1em 0em;
+    width: 100%;
+  }
+  .separation img {
+    width: 100%;
+  }
+  .bucket-list {
+    padding: 1em;
+  }
+  .contact {
+    padding: 1em;
+  }
+}/*# sourceMappingURL=style.css.map */
