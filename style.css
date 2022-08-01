@@ -71,13 +71,12 @@ nav .logo img {
 nav .logo h1 {
   padding-left: 30px;
 }
-nav .logo h1::after {
+.trait {
   content: "";
   width: 40%;
   border: 2px solid #FAC300;
   border-radius: 5px;
   top: 53%;
-  position: absolute;
   right: 20%;
 }
 
@@ -224,7 +223,7 @@ nav .logo h1::after {
   nav .logo h1 {
     padding-left: 0px;
   }
-  nav .logo h1::after {
+  .trait {
     display: none;
   }
   .banner-page {
