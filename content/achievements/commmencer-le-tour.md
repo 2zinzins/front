@@ -1,7 +1,6 @@
 ---
 visibleInCms: true
-title: "Commmencer Le Tour"
-done: false
 draft: false
+title: Commencer Le Tour
+done: false
 ---
-
