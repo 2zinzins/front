@@ -39,6 +39,7 @@ h1 span {
 
 h1 .titre-chiffre{
   font-size: 95px;
+  transform: rotate(45deg);
 }
 
 h2 {
