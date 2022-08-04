@@ -144,7 +144,16 @@ nav .logo:hover img{
   background: #FAC300;
   border-radius: 30px;
   width: 30%;
+  position: absolute;
+  left: 65%;
+  top: 57.7%;
 }
+
+.text-desc{
+  padding: 1;
+  margin-bottom: 23.5%;
+}
+
 .banner-page .container-asso .button-acc {
   background-color: transparent;
   padding: 8px 40px;
@@ -166,6 +175,7 @@ nav .logo:hover img{
 .banner-page .container-asso img {
   padding-right: 20px;
   padding: 1em;
+  padding-left: 0;
   width: 30%;
 }
 .banner-page .container-asso .text-asso {
@@ -177,6 +187,9 @@ nav .logo:hover img{
 .banner-page .container-asso p {
   background-color: transparent;
   color: white;
+  padding: 0;
+  margin-right: 5%;
+  margin-top: 20%;
 }
 .banner-page .arrow {
   width: 100%;
@@ -193,9 +206,7 @@ nav .logo:hover img{
   padding: 0em 10em;
   background-color: whitesmoke;
 }
-.acc p{
-  margin: 10px;
-}
+
 .container-asso2 .img-container-asso2 {
   display: flex;
   justify-content: center;
@@ -332,6 +343,20 @@ nav .logo:hover img{
   }
   .contact {
     padding: 1em;
+  }
+  .banner-page .container-asso {
+    display: flex;
+    align-items: center;
+    background: #FAC300;
+    border-radius: 30px;
+    width: 30%;
+    position: relative;
+    left: 0%;
+    top: 0%;
+  }
+  .text-desc{
+    padding: 1;
+    margin-bottom: 0%;
   }
 }/*# sourceMappingURL=style.css.map */
 
