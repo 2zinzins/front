@@ -75,8 +75,9 @@
             {{ range (where .Site.Pages "Section" "achievements") }}
                 {{ range .Pages }}
                     {{if .Params.done}}
-                        <div><img src="/img/effectuer.png"></div>
+                        <input type="checkbox" disabled checked></input>
                     {{ else }}
+                        <input type="checkbox" disabled></input>
                     {{ end }}
                     <li>{{ .Title }}</li>
                 {{ end }}
