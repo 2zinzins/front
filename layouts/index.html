@@ -74,12 +74,13 @@
         <ul>
             {{ range (where .Site.Pages "Section" "achievements") }}
                 {{ range .Pages }}
-                    {{if .Params.done}}
-                        <input type="checkbox" disabled checked></input>
-                    {{ else }}
-                        <input type="checkbox" disabled></input>
-                    {{ end }}
-                    <li>{{ .Title }}</li>
+                    <div class="bucket-item">{{if .Params.done}}
+                            <input type="checkbox" disabled checked></input>
+                        {{ else }}
+                            <input type="checkbox" disabled></input>
+                        {{ end }}
+                        <li>{{ .Title }}</li>
+                    </div>
                 {{ end }}
             {{ end }}
         </ul>

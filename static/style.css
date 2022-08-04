@@ -22,6 +22,8 @@ li {
   font-family: "Patrick Hand", cursive;
   font-size: 16px;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 h2, h3, h4, h5 {
@@ -29,17 +31,17 @@ h2, h3, h4, h5 {
 }
 h1 {
   font-family: "Velcro", cursive;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: normal;
   flex: 100%;
   margin: 0px;
 }
 h1 span {
-  font-size: 75px;
+  font-size: 65px;
 }
 
 h1 .titre-chiffre{
-  font-size: 95px;
+  font-size: 85px;
   transform: rotate(45deg);
 }
 
@@ -228,6 +230,10 @@ nav .logo:hover img{
 }
 .bucket-list li {
   padding: 1em;
+}
+
+.bucket-item{
+  display: flex;
 }
 
 .contact {
