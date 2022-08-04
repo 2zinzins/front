@@ -28,11 +28,16 @@ h2, h3, h4, h5 {
 }
 h1 {
   font-family: "Velcro", cursive;
-  font-size: 45px;
+  font-size: 64px;
+  font-weight: normal;
   flex: 100%;
   margin: 0px;
 }
 h1 span {
+  font-size: 75px;
+}
+
+h1 .titre-chiffre{
   font-size: 95px;
 }
 
@@ -105,6 +110,7 @@ nav .logo:hover img{
   flex-direction: column;
   align-items: center;
   padding: 0em 10em;
+  margin-top: 5%;
 }
 .banner-page .acc {
   display: flex;
@@ -155,8 +161,8 @@ nav .logo:hover img{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 55px;
+  margin-top: 25px;
+  margin-bottom: 100px;
   color: #FAC300;
 }
 
