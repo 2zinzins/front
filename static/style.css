@@ -43,6 +43,7 @@ h1 span {
 h1 .titre-chiffre{
   font-size: 85px;
   transform: rotate(45deg);
+  color: #FAC300;
 }
 
 h2 {
