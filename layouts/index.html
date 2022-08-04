@@ -75,9 +75,8 @@
             {{ range (where .Site.Pages "Section" "achievements") }}
                 {{ range .Pages }}
                     {{if .Params.done}}
-                        <div><img src="/img/logo.png"></div>
+                        <div><img src="/img/effectuer.png"></div>
                     {{ else }}
-
                     {{ end }}
                     <li>{{ .Title }}</li>
                 {{ end }}
