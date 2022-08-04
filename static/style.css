@@ -78,7 +78,7 @@ nav .logo {
 }
 nav .logo img {
   transition: transform .1s;
-  width: 50%;
+  width: 20%;
 }
 nav .logo h1 {
   text-decoration: none;
