@@ -82,6 +82,11 @@ nav {
   padding: 1em 10em;
   position: relative;
 }
+
+.p-nav{
+  white-space: nowrap;
+}
+
 nav .logo {
   text-decoration: none;
   display: flex;
@@ -102,11 +107,6 @@ nav .logo:hover h1{
 nav .logo:hover img{
   transform: scale(1.1) rotate(-4deg);
 }
-
-nav p{
-  white-space: nowrap;
-}
-
 .trait {
   content: "";
   width: 40%;
@@ -121,26 +121,17 @@ nav p{
   flex-direction: column;
   align-items: center;
   padding: 0em 10em;
-  height: 50%;
 }
 .banner-page .acc {
   display: flex;
   justify-content: space-between;
 }
-
-.banner-page .text-zinzin{
-  margin-bottom: 25%;
-}
-
 .banner-page .container-asso {
   display: flex;
   align-items: center;
   background: #FAC300;
   border-radius: 30px;
   width: 30%;
-  position: absolute;
-  margin-left: 55%;
-  top: 56.7%;
 }
 .banner-page .container-asso .button-acc {
   background-color: transparent;
