@@ -1,6 +1,7 @@
 ---
 visibleInCms: true
 draft: false
-title: "750 € - On se rase les cheveux "
+title: On fait le 4L trophy
+amount: 5000
 done: false
 ---

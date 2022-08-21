@@ -1,6 +1,7 @@
 ---
 visibleInCms: true
 draft: false
-title: 5000 € - On fait le 4L trophy
+title: Live 24h surprise (du lourd)
+amount: 1000
 done: false
 ---

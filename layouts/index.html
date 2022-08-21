@@ -72,14 +72,15 @@
         <h2>Donation goals</h2>
         <p>Ici, on réunit tous les défis que nous réaliseront selon vos dons, à vous de nous montrer de quoi vous êtes capables ! </p>
         <ul>
-            {{ range (where .Site.Pages "Section" "achievements") }}
-                {{ range .Pages }}
+            {{ $donationGoals := (where .Site.Pages "Section" "donation-goals") }}
+            {{ range $donationGoals}}
+                {{ range sort .Pages  ".Params.amount" "asc"  }}
                     <div class="bucket-item">{{if .Params.done}}
                             <input type="checkbox" disabled checked></input>
                         {{ else }}
                             <input type="checkbox" disabled></input>
                         {{ end }}
-                        <li>{{ .Title }}</li>
+                        <li>{{ .Params.amount }}€ - {{ .Title }}</li>
                     </div>
                 {{ end }}
             {{ end }}

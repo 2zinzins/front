@@ -1,6 +1,7 @@
 ---
 visibleInCms: true
 draft: false
-title: 3000 € - On fait le marathon de Paris
+title: On grimpe le Mont Blanc
+amount: 10000
 done: false
 ---

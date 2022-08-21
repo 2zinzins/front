@@ -9,10 +9,10 @@ slug:
   clean_accents: true
 
 collections:
-  - name: achievements
-    label: Objectifs
-    label_singular: Objectif
-    folder: content/achievements
+  - name: donation-goals
+    label: Objectifs de dons
+    label_singular: Objectif de don
+    folder: content/donation-goals
     create: true
     editor: { preview: false }
     filter: {field: "visibleInCms", value: true}
@@ -20,4 +20,5 @@ collections:
       - { label: "Visible", name: "visibleInCms", widget: hidden, default: true}
       - { label: Brouillon, name: draft, default: false, widget: "boolean" }
       - { label: Titre, name: title }
+      - { label: Montant, name: amount, widget: "number", value_type: "int" }
       - { label: "Objectif atteint", name: done, default: false, widget: "boolean" }
