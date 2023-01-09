@@ -3,7 +3,7 @@ title: Mentions légales
 ---
 ## Mentions légales
 ### Propriétaires du site
-[Maxence Cuillerier](https://maxencecuillierier.fr/) et [Kilian Jaffrelot](https://killianjaffrelot.netlify.app/)
+[Maxence Cuillierier](https://maxencecuillierier.fr/) et [Killian Jaffrelot](https://killianjaffrelot.netlify.app/)
 ### Développement du site
 [Lucas Froidefond](https://lucasfroidefond.netlify.app/) et [Arthaud Proust](https://arthaudproust.fr)
 ### Hébergement
